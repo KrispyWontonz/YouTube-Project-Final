@@ -1,3 +1,4 @@
+      /*Naralee's CSS*/
       *{
           box-sizing: border-box;
       }
@@ -11,7 +12,7 @@
         }
         #top--left--youtube{
             position: absolute;
-            left: 130px;
+            left: 0px;
             top: -5px;
         }
         a{
@@ -30,15 +31,15 @@
         }
         .topnav{
             overflow: hidden;
-            background-color:#383837 ;
+            background-color:#808080 ;
         }
         .search--bar{
             position:absolute;
-            top: 27px;
+            top: 10px;
             left: 800px;
-            background-color: #383837;
-            width: 1150px;
-            height: 85px;
+            background-color: #808080;
+            width: 1120px;
+            height: 70px;
             padding: 5px;
             border-radius: 1px;
             display: flex;
@@ -47,7 +48,7 @@
         }
         .search--bar .input{
             width:1000px ;
-            background-color:black;
+            background-color:#1a1919;
             font-size: 30px;
             text-align: left;
             color: white;
@@ -56,49 +57,56 @@
         .sidenav a{
             text-decoration: none;
             font-family: sans-serif;
+            width:300px;
         }
         .side--icons--img{
-            top: 150px ;
+            top: 122px ;
+        }
+        .side--icons--img .bottom{
+            top: 250px;
+            left: 0px;
         }
         .microphone{
             position: absolute;
             left: 1955px;
-            top: 20px;
+            top: 0px;
             border: none;
             padding: 0px;
         }
         .videoicon{
             position: absolute;
             left: 2350px;
-            top:20px;
+            top:10px;
             border: none;
             padding:0px;
         }
         .optionsicon{
             position: absolute;
             left: 2470px;
-            top: 20px;
+            top: 10px;
             padding: 0px;
             border: none;
         }
         .bellicon{
             position: absolute;
             left: 2600px;
-            top: 20px;
+            top: 10px;
             padding: 0px;
             border: none;
         }
         .profileimage{
             position: absolute;
             left: 2723px;
-            top: 20px;
+            top: 10px;
             padding: 0px;
             border: none;
         }
+        /*End of Naralee's CSS Beginning of Ethan's CSS*/
         .topic-bar{
             margin-left:310px;
             height: 70px;
             width: 2400px;
+            margin-top: 100px;
             position: absolute;
             display: flex;
             flex-wrap: wrap;
@@ -110,11 +118,16 @@
             height: 25px;
             width: 125px;
             color: white;
-            text-align: center;
             background-color:#A9A9A9;
             border-radius: 30px;
             padding: 35px 0;
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:25px;
+        }
+        .topic-bar div:hover{
+            background-color:#D3D3D3;
         }
         .videos-section{
             box-align: right;
@@ -124,9 +137,10 @@
             height: 1000px;
             position: absolute;
             margin-left:500px;
-            margin-top:100px;
+            margin-top:210px;
             justify-content: space-evenly;
             flex-wrap: wrap;
+            background-color: black;
         }
         .videos{
             flex-wrap:wrap;
@@ -171,6 +185,14 @@
         }
         #vid8{
             background-color: orange;
+        }
+         /*Revisions added 3/7 End of Ethan's CSS*/
+        .side--icons--img{
+            top: 122px ;
+        }
+        .side--icons--img .bottom{
+            top: 250px;
+            left: 0px;
         }
         
         
